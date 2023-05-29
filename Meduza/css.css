@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url(./photo/5cda5a34fa12a798597ae7fccef441cd--desktop-wallpapers-hd-wallpaper.jpg);
+}
+.childer {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  background-size: cover;
+  background-image: url(./photo/monster-energy-energy-drink-fizzy-drinks-juice-lucozade-cans-69d43b623e5be4e2eaccffe3f0c5d1a4.png);
+  margin-left: 800px;
+  margin-top: 100px;
+  border-radius: 30px;
+  animation: energy;
+  animation-duration: 2s;
+}
+
+.child-1 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-radius: 50%;
+  animation: child-1;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+@keyframes child-1 {
+  0% {
+  }
+  100% {
+    transform: translateX(-600px) translateY(-230px);
+  }
+}
+.child-1:hover {
+}
+.child-2 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-radius: 50%;
+  animation: child-2;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+@keyframes child-2 {
+  0% {
+  }
+  100% {
+    transform: translateX(-800px) translateY(-70px);
+  }
+}
+.child-3 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-radius: 50%;
+  animation: child-3;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+@keyframes child-3 {
+  0% {
+  }
+  100% {
+    transform: translateX(-500px) translateY(60px);
+  }
+}
+
+.child-4 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-radius: 50%;
+  animation: child-4;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+@keyframes child-4 {
+  0% {
+  }
+  100% {
+    transform: translateX(-800px) translateY(190px);
+  }
+}
+.child-5 {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-radius: 50%;
+  animation: child-5;
+  animation-duration: 1s;
+  animation-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+}
+@keyframes child-5 {
+  0% {
+  }
+  100% {
+    transform: translateX(-600px) translateY(310px);
+  }
+}
